@@ -559,3 +559,118 @@
   }
   
   /*  end aside */
+  /* start service */
+.service {
+    min-height: 200vh;
+    background-color: #f2f9f9;
+  }
+  .service-subtaitle {
+    padding-top: 100px;
+    font-size: 22px;
+    font-family: var(--titlefont);
+    color: var(--primarycolor);
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+  }
+  .service-title {
+    padding-top: 1.25rem;
+    font-family: var(--titlefont);
+    color: var(--titlecolor);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .service-center {
+    /* margin-top: 50px; */
+    min-height: 120vh;
+    width: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 70px;
+    position: relative;
+  }
+  .blog {
+    width: 375px;
+    height: 200px;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #f2f9f9;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  }
+  .blog-title {
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 35px;
+    font-weight: 500;
+    color: var(--titlecolor);
+    font-family: var(--titlefont);
+    text-transform: capitalize;
+  }
+  
+  .blog-text {
+    color: #808080;
+    line-height: 1.55;
+    padding-top: 20px;
+    padding-left: 35px;
+    width: 250px;
+    font-family: var(--bodyfont);
+  }
+  .service-center2 {
+    min-height: 120vh;
+    float: right;
+    margin-top: -705px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .service-img {
+    padding-left: 425px;
+    margin-top: -620px;
+  }
+  
+  .fa-dumpster-fire,
+  .mb6 {
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin-top: -130px;
+  }
+  .fa-assistive-listening-systems,
+  .mb7,
+  .fa-project-diagram {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+  }
+  .blog-title1 {
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: -100px;
+    padding-left: 95px;
+    font-weight: 500;
+    color: var(--titlecolor);
+    font-family: var(--titlefont);
+    text-transform: capitalize;
+  }
+  .blog-text1 {
+    color: #808080;
+    line-height: 1.55;
+    padding-top: 20px;
+    padding-left: 90px;
+    font-family: var(--bodyfont);
+  }
+  /* end service */
