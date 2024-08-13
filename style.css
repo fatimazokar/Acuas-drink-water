@@ -842,3 +842,69 @@
     color: var(--primarycolor);
   }
   /* end our blog */
+  /*  start our team */
+.our-team {
+    padding-top: 100px;
+  }
+  .team-subtaitle {
+    color: var(--primarycolor);
+    font-size: 25px;
+    font-family: var(--titlefont);
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .team-taitle {
+    padding-top: 1rem;
+    font-family: var(--titlefont);
+    color: var(--titlecolor);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .team-container {
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .team-box {
+    height: 400px;
+    width: 220px;
+    border-radius: 0.1%;
+    border: none;
+    border: 0.5px solid rgb(220, 217, 217);
+    background-color: #f2f9f9;
+    text-align: center;
+    outline: 1px solid #19409a;
+    outline-offset: 20px;
+  }
+  .team1 {
+    background-image: url("./IMAGES/team-1.jpg");
+    background-repeat: no-repeat;
+  }
+  .team-box-taitle {
+    padding-top: 290px;
+    font-weight: 300;
+  }
+  .team-box-text {
+    padding-top: 20px;
+    color: #808080;
+  }
+  .team2 {
+    background-image: url("./IMAGES/team-2.jpg");
+    background-repeat: no-repeat;
+  }
+  .team3 {
+    background-image: url("./IMAGES/team-3.jpg");
+    background-repeat: no-repeat;
+  }
+  .team4 {
+    background-image: url("./IMAGES/team-4.jpg");
+    background-repeat: no-repeat;
+  }
+  /*  end our team */
