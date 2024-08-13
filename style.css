@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --primarycolor: #00d1f9;
+    --secondarycolor: #19409a;
+    --titlecolor: #001442;
+    --titlefont: "Playfair Display";
+    --adscolor: #808080;
+    --bodyfont: "Open Sans";
+  }
+  .body {
+    font-family: var(--bodyfont);
+    line-height: 1.5;
+  }
+  /* navbar */
+  .nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-left: 50px;
+    position: fixed;
+    border-bottom: 0.1px dashed #807d7d;
+    align-content: center;
+    align-items: center;
+  }
+  .logo {
+    color: var(--primarycolor);
+    font-size: 40px;
+  }
+  .nav-taitle {
+    color: var(--primarycolor);
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: var(--titlefont);
+  }
+  .nav-list {
+    width: 450px;
+    margin-left: 100px;
+  }
+  .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border-right: 2px solid var(--primarycolor);
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .nav-text {
+    color: #807d7d;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  .nav-number {
+    color: var(--primarycolor);
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: larger;
+  }
+  .nav-end {
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+  .pp-1 {
+    color: #fff;
+  }
+  .nav-search {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--primarycolor);
+    border: none;
+    border-radius: 100%;
+    background-color: var(--primarycolor);
+    cursor: pointer;
+  }
+  /* end navbar */
+  
+  .banner-btn3 {
+    text-decoration: none;
+  
+    display: inline-block;
+    padding-top: 0.4rem;
+    border: none;
+    border: 1px solid #00d1f9;
+    color: #fff;
+    background-color: var(--primarycolor);
+    border-radius: 35px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--bodyfont);
+    margin-top: 2rem;
+    margin-left: 5px;
+  }
+  .active {
+    color: var(--primarycolor);
+  }
+  .nav-link:hover {
+    color: var(--primarycolor);
+  }
+  
+  /* header */
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("./IMAGES/carousel-2.jpg") center/cover no-repeat;
+    min-height: 110vh;
+    position: relative;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    color: #fff;
+    padding-left: 5rem;
+    margin-top: 1.5rem;
+    /* animation: move 2s; */
+    /* animation-fill-mode: forwards;  */
+  }
+  
+  .banner-subtitle {
+    padding-top: -200px;
+    font-weight: 700;
+    font-family: var(--titlefont);
+    text-transform: uppercase;
+    font-size: 25px;
+    animation: move 1s ease;
+  }
+  
+  .banner-title {
+    font-weight: 700;
+    font-family: var(--titlefont);
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-size: 3.25rem;
+    margin-top: 1.5rem;
+    animation: move 1.5s  ease;
+  }
+  .banner-text {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    animation: move 1.75s ease;
+  }
+  
+  .banner-btn1 {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 0.6rem;
+    border: none;
+    border: 1px solid #00d1f9;
+    color: #fff;
+    background-color: var(--primarycolor);
+    border-radius: 35px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--bodyfont);
+    margin-top: 2rem;
+    animation: move 2s ease;
+  }
+  .banner-btn-2 {
+    text-decoration: none;
+  
+    display: inline-block;
+    padding-top: 0.6rem;
+    border: none;
+    border: 1px solid #19409a;
+    color: #fff;
+    border-radius: 35px;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--bodyfont);
+    background-color: var(--secondarycolor);
+    margin-top: 2rem;
+    animation: move 2.25s ease;
+  }
+  
+  .banner-btn-2:hover {
+    background-color: var(--primarycolor);
+  }
+  .banner-btn1:hover {
+    background-color: var(--secondarycolor);
+    border: none;
+  }
+  
+  .about-btn:hover {
+    background-color: var(--primarycolor);
+  }
+  /* animations */
+  @keyframes move {
+    
+  0%{
+    transform: translateX(1000px);
+  
+  }
+  
+  100%{
+  transform: translateX(0px);
+  
+  
+  }
+  }
+  /* animations */
+  /* end header */
