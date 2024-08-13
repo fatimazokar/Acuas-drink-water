@@ -764,3 +764,81 @@
   }
   
   /* end product */
+  /* start our blog */
+.our-blog {
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .our-blog-subtaitle {
+    color: var(--primarycolor);
+    font-size: 25px;
+    font-family: var(--titlefont);
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .our-blog-title {
+    font-size: 4rem;
+    text-align: center;
+    font-family: var(--titlefont);
+    color: var(--titlecolor);
+  }
+  .our-blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+  }
+  
+  .blog-skills {
+    width: 350px;
+    height: 480px;
+    border-radius: 15px;
+  
+    border: 0.5px solid rgb(220, 217, 217);
+    background-color: #f2f9f9;
+  }
+  .skill-ads {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .skill-ads-3d {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--titlecolor);
+    font-family: var(--titlefont);
+    font-weight: 500;
+  }
+  
+  /* .skill1-img{
+  background-image: url("./IMAGES/skill1.jpg");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 280px; */
+  .skill-text {
+    padding-top: 20px;
+    color: #808080;
+    line-height: 1.55;
+  
+    font-family: var(--bodyfont);
+  }
+  .skill-btn {
+    display: block;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 15px;
+    color: var(--secondarycolor);
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .skill-btn:hover {
+    color: var(--primarycolor);
+  }
+  .skill-ads-3d:hover {
+    color: var(--primarycolor);
+  }
+  /* end our blog */
