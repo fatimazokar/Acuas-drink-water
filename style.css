@@ -908,3 +908,99 @@
     background-repeat: no-repeat;
   }
   /*  end our team */
+  /* start Testimonials */
+.Testimonials {
+    padding-top: 100px;
+    min-height: 140vh;
+  }
+  .Testimonials-subtaitle {
+    color: var(--primarycolor);
+    font-size: 25px;
+    font-family: var(--titlefont);
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .Testimonials-taitle {
+    font-family: var(--titlefont);
+    color: var(--titlecolor);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .Testimonials-container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-around;
+  }
+  .Testimonials-column {
+    width: 500px;
+    height: 400;
+    border: 1px solid black;
+    border: none;
+  }
+  .Testimonials-text {
+    padding-top: 10px;
+    text-align: center;
+    color: #808080;
+    line-height: 1.55;
+    font-family: var(--bodyfont);
+  }
+  .Testimonials-img {
+    border: 5px solid var(--primarycolor);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url("./IMAGES/testimonial-1.jpg");
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  
+  .Testimonials-name {
+    text-align: center;
+    color: var(--titlecolor);
+    font-family: var(--titlefont);
+    padding-top: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .Testimonials-jop {
+    padding-top: 10px;
+    color: #808080;
+    font-family: var(--bodyfont);
+    margin-left: 210px;
+    display: block;
+    text-transform: capitalize;
+  }
+  .s1 {
+    width: 20px;
+    height: 20px;
+    color: var(--secondarycolor);
+    background: none;
+    font-size: 15px;
+  }
+  .s2 {
+    height: 20px;
+    width: 100px;
+    flex-direction: row;
+    border: 1px solid black;
+    border: none;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+  }
+  .Testimonials-img2 {
+    border: 5px solid var(--primarycolor);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url("./IMAGES/testimonial-3.jpg");
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  /* end Testimonials */
